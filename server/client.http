@@ -1,0 +1,6 @@
+post http://localhost:8080/transactions
+Content-Type: application/json
+
+{
+    "prompt": "Hoje eu paguei  um conta de luz no valor de 80 reais"
+}
