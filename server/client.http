@@ -1,6 +1,15 @@
+##Create Transacitions
 post http://localhost:8080/transactions
 Content-Type: application/json
 
 {
-    "prompt": "Hoje eu paguei  um conta de luz no valor de 80 reais"
+    "prompt": "Hoje eu paguei  um conta de agua no valor de 70 reais"
 }
+
+###
+#get transaction recents
+get http://localhost:8080/transactions/recent
+
+###
+# get transaction all
+get http://localhost:8080/transactions?name=&categories=&pageIndex=0
