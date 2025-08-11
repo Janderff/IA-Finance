@@ -3,7 +3,7 @@ post http://localhost:8080/transactions
 Content-Type: application/json
 
 {
-    "prompt": "Hoje eu paguei  um conta de agua no valor de 70 reais"
+    "prompt": "Hoje eu paguei  um conta de internet no valor de 100 reais"
 }
 
 ###
